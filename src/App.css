@@ -21,3 +21,11 @@
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.add-task {
+    max-width: 500px;
+    padding: 20px;
+    max-height: 50px;
+    background-color: rgb(66, 226, 66);
+    color: #ffffff;
+}

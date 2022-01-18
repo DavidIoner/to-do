@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css' // This is the only way to import CSS files in React
 import Tasks from './components/Tasks'
+import AddTask from './components/AddTask'
 
 const App = () => { 
   const [tasks, setTasks] = React.useState([
@@ -24,6 +25,7 @@ const App = () => {
   return (
     <div>
       <div className="caxota">
+        <AddTask />
         <Tasks tasks={tasks} /> 
 
       </div>

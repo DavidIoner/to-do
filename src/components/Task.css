@@ -3,5 +3,14 @@
     text-align: center;
     border-radius: 5px;
     padding: 5px;
-    margin: 5%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.task-completed-container {
+    background-color: rgba(255, 255, 255, 0.253);
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
 }
