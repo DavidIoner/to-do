@@ -1,11 +1,10 @@
-
 import React, { useState } from "react";
 
 import Button from "./Button";
 
-import "./Task.css";
+import "./AddTask.css";
 
-const AddTask = ({ handleAddTask }) => {
+const AddTask = ({ handleTaskAddition }) => {
 	const [inputData, setInputData] = useState("");
 
 	const handleInputChange = (e) => {
@@ -13,7 +12,7 @@ const AddTask = ({ handleAddTask }) => {
 	};
 
 	const handleAddTaskClick = () => {
-		handleAddTask(inputData);
+		handleTaskAddition(inputData);
 		setInputData("");
 	};
 

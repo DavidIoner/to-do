@@ -1,37 +1,30 @@
+
 .task-container {
-    background-color: rgba(255, 255, 255, 0.253);
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-    cursor: pointer;
-}
-
-
-.add-task-container {
-	margin: 15px 0;
-	width: 100%;
+	background-color: #444;
+	margin: 8px 0;
+	padding: 15px 20px;
 	display: flex;
-}
-
-.add-task-input {
-	height: 40px;
-	padding: 0 10px;
 	border-radius: 5px;
-	border: none;
-	flex: 2;
-	background-color: #444;
+	justify-content: space-between;
 	color: #eee;
-	font-size: 16px;
-    margin-top: 3px;  /* gambiarra pois esta fora de alinhamento */
+	align-items: center;
 }
 
-.add-task-button-container {
-	margin-left: 10px;
-	flex: 1;
+.task-title {
+	cursor: pointer;
 }
 
-.button:hover {
+.buttons-container {
+	width: 30%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.remove-task-button,
+.see-task-details-button {
 	background-color: #444;
+	border: none;
+	font-size: 24px;
 	color: chartreuse;
+	margin: 0 5px;
 }
